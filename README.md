@@ -1,4 +1,4 @@
-# Data-Science
+# Clustering
 
 In the case study under consideration, the company wants to invest more in the US market and find out where it can better position itself in marketing and sales. The company sells hand tools for metalworking, and the key industries are:
 
