@@ -1,1 +1,49 @@
+# Handlungsempfehlungen für Investionsentscheidungen
 
+Ziel des Projektes und der Datenanylse ist es, geignete US Standorte zu Identifizieren um für das Unternehmen PFERD geignete Investitionsentscheidungen im bereich potentielle kunden, wirtschaftskraft und produktionsstätten zu treffen. 
+
+Dazu wurden wirtschaftliche und arbeitsmarktbezogene Daten von US-Counties analysiert:
+
+1. Datenquellen integriert:
+- Bruttoinlandsprodukt (GDP) pro County
+- Beschäftigung pro Branche (NAICS) und Beruf (SOC)
+- Unternehmensanzahl und Gehaltsstruktur aus der „County Business Pattern“-Statistik
+
+2. Relevante Industrien gefiltert:
+- Fokus auf produzierende Branchen (NAICS 31–33), Bau (23), Energie, Bergbau
+- Auswahl spezifischer Berufsgruppen aus der industriellen Fertigung und Instandhaltung (z. B. Werkzeugmechaniker, Maschineneinrichter, Zerspanungstechniker)
+
+3. Clusteranalyse (KMeans):
+- Acht wirtschaftliche Merkmale wurden verwendet: Beschäftigungszahlen in relevanten NAICS-Branchen, Gehälter, Anzahl Betriebe, GDP
+- Die Daten wurden skaliert und in drei Cluster gruppiert
+- Die Cluster wurden geografisch dargestellt
+
+Ziel war es, datenbasiert zu bestimmen:
+1. Wo sind Regionen mit hoher Werkzeugnachfrage? → durch Industrie, Maschinenbau, Automotive etc.
+2. Wo sind geeignete Arbeitsmärkte für eigene Produktion?
+3. Welche Regionen haben günstige Kostenstrukturen, ohne auf Potenzial zu verzichten?
+
+Diese Informationen unterstützen strategische Standortentscheidungen im Hinblick auf:
+- Produktion
+- Markteintritt
+- Vertrieb & Logistik
+- Technischer Service
+
+3. Handlungsempfehlungen:
+Produktion:
+- Geeignet in Cluster-2-Regionen mit gutem Zugang zu Arbeitsmarkt & Infrastruktur
+- Empfohlene Regionen: Tennessee, South Carolina, Inland-Kalifornien, Texas, Arizona
+
+Vertrieb / Kundenservice:
+- Cluster-1-Regionen mit starker Industriebasis und OEM-Nähe
+- Empfohlene Regionen: Chicago, Detroit, Boston, Houston, Los Angeles
+
+Logistik / Montage:
+- Strategisch gelegene Cluster-2-Regionen mit Exportpotenzial
+- Z. B. Texas, Florida, Georgia
+
+4. Regionale Empfehlungen:
+- Kalifornien (Box 1): High-End-Vertrieb & Inland-Produktion
+- Texas (Box 2): Produktion + Kundenservice
+- Midwest (Box 4): Kundennähe (z. B. Maschinenbau, Automotive)
+- Südosten (Box 7): Günstige Produktionsregionen mit Fachkräftepotenz
