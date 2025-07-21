@@ -1,1 +1,33 @@
-
+PFERD - Handlungsempfehlung basierend auf Zeitreihenanalyse in 5 US-Bundesstaaten
+Ziel:
+Analyse der Beschäftigtenzahlen im Zeitverlauf in fünf industriell relevanten US-Bundesstaaten
+(Texas, California, Michigan, Ohio, Indiana), um zukünftige Trends und Investitionspotenzial
+datenbasiert zu bewerten.
+Methodik:
+- Zeitreihenanalyse mittels ARIMA-Modellen
+- Getestet auf Stationarität (ADF-Test), differenziert, geglättet
+- Aufgeteilt in Trainings- und Testdaten
+- Modelle zur Prognose von Arbeitskräfteentwicklung genutzt
+Ergebnisse:
+1. Texas:
+- Beschäftigtenzahl stabil bis wachsend
+- Empfehlung: Hohe Priorität für Produktionsstandort, Nähe zu Wachstumsmärkten
+2. California:
+- Schwankend, hohe Lohnkosten
+- Empfehlung: Kein Produktionsstandort, aber ideal für High-End-Vertrieb & technische Services
+3. Indiana:
+- Klar wachsender Trend
+- Empfehlung: Sehr attraktiv für Produktionslinie oder Montagebetrieb
+4. Ohio:
+- Stabil mit leichtem Wachstum
+- Empfehlung: Geeignet für kostenbewusste Produktion oder Logistik
+5. Michigan:
+- Tendenziell rückläufig, aber traditionsreicher Industriestandort
+- Empfehlung: Einsatz für Kundenservice, OEM-Nähe oder Nischenmärkte
+Strategische Empfehlungen:
+- Produktion: Fokus auf Texas und Indiana
+- Vertrieb/Service: Präsenz in Kalifornien (Kundennähe, Image)
+- OEM-Nähe / Nischen: Ohio und Michigan selektiv nutzen
+Fazit:
+Zeitreihenanalyse zeigt, dass insbesondere Texas und Indiana durch ihre Arbeitsmarktdynamik als
+stabile und wachstumsorientierte Investitionsregionen für PFERD geeignet sind.
